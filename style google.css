@@ -1,0 +1,110 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    float: right;
+
+}
+
+.header a, .header button
+{
+    margin: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header button
+{
+    background: #4484f1;
+    padding: 8px;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+.main
+{
+    text-align: center;
+}
+
+.logo_google img
+{
+    margin-top: 200px;
+    margin-left: 230px;
+    width: 272px;
+    height: 92px;
+}
+
+.searchbox input
+{
+    margin: 20px;
+    height: 35px;
+    width: 500px;
+    border-radius: 2%;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.button
+{
+    margin: 20px;
+}
+
+.languages
+{
+    margin: 50px;
+    text-decoration: none;
+
+}
+
+.footer span
+{
+    position: relative;
+    right: 930px;
+    top: 344px;
+    padding-left: 27px;
+    background: #f2f2f2;
+    color: #5f6368;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-links
+{
+    font-size: 17px;
+    display: inline;
+    color: #5f6368;
+    border-top: 1px solid #e4e4e4;
+    position: relative;
+    top: 355px;
+    right: 20px;
+    background: #f2f2f2;
+    bottom: 0;
+    padding-bottom: 0;
+    width: -50%;
+    float: left;
+    padding: -120px
+}
+
+.footer-right
+{
+  background: #f2f2f2;
+  border-top: solid 1px #e4e4e4;  
+  display: inline;
+  color: #666666;
+  font-size: 17px;
+  padding: 13px;
+  float: right;
+  padding: -250px;
+  overflow: auto;
+  justify-content: space-between;
+  position: relative;
+  top: 335px;
+  flex-wrap: nowrap;
+}
